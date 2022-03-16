@@ -2,7 +2,7 @@
   "name": "game-of-life",
   "version": "0.0.1",
   "description": "An interactive version of John Horton Conway's 'Game of Life'",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "test",
     "start": "electron ."
