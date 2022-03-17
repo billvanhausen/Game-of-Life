@@ -1,0 +1,11 @@
+div.block{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+div.live{
+    background-color: #444;
+}
