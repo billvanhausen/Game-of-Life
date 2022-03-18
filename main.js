@@ -1,4 +1,5 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, Menu } = require('electron');
+const applicationMenu = require('./application-menu');
 
 const createWindow = () => {
     const win = new BrowserWindow({
@@ -10,6 +11,7 @@ const createWindow = () => {
 }
 
 app.whenReady().then(() => {
+    Menu.setApplicationMenu(applicationMenu)
     createWindow()
   
     app.on('activate', () => {
